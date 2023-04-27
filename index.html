@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/slick.css" />
+    <link rel="stylesheet" href="/css/slick-theme.css" />
+    <title>Final Project</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="topbar">
+        <div id="leftBar">
+          <p><span>SHOP</span>LANE</p>
+          <a href="#clothing-section">Clothing</a>
+          <a href="#accessories-section">Accessories</a>
+        </div>
+        <div id="centerBar">
+          <div id="searchBar">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            <input
+              type="text"
+              placeholder="Search for Clothing and Accessories"
+            />
+          </div>
+        </div>
+        <div id="rightBar">
+          <div id="cart-wrapper">
+            <a href="/checkout.html"
+              ><i class="fas fa-shopping-cart fa-lg"></i
+            ></a>
+            <p id="cart-count">0</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--hovering over the images will pause the slideshow -->
+
+      <section>
+        <div class="slider-container">
+          <div class="slider">
+            <img src="/img/slide-img-1.png" alt="Image 1" />
+            <img src="/img/slide-img-2.png" alt="Image 2" />
+            <img src="/img/slide-img-3.png" alt="Image 3" />
+            <img src="/img/slide-img-4.png" alt="Image 4" />
+          </div>
+          <div class="slider-dots"></div>
+          <button class="prev-btn">&#10094;</button>
+          <button class="next-btn">&#10095;</button>
+        </div>
+      </section>
+      <section id="product-items">
+        <div class="container">
+          <p id="loading"></p>
+          <h2 class="section-heading">Clothing for Men and Women</h2>
+
+          <div id="clothes"></div>
+
+          <h2 class="section-heading">Accessories for Men and Women</h2>
+
+          <div id="accessories"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p class="footer-heading">Online Store</p>
+        <a href="/" class="footer-link">Men Clothing</a>
+        <a href="/" class="footer-link">Women Clothing</a>
+        <a href="/" class="footer-link">Men Accessories</a>
+        <a href="/" class="footer-link">Women Accessories</a>
+      </div>
+      <div>
+        <p class="footer-heading">Helpful links</p>
+        <a href="/" class="footer-link">Home</a>
+        <a href="/" class="footer-link">About</a>
+        <a href="/" class="footer-link">Contact</a>
+      </div>
+      <div>
+        <p class="footer-heading">Partners</p>
+        <a href="/" class="footer-link">Zara</a>
+        <a href="/" class="footer-link">Pantaloons</a>
+        <a href="/" class="footer-link">Levis</a>
+        <a href="/" class="footer-link">UCB</a>
+        <a href="/" class="footer-link">+Many More</a>
+      </div>
+      <div>
+        <p class="footer-heading">Address</p>
+        <a href="/" class="footer-link">Building 101</a>
+        <a href="/" class="footer-link">Central Avenue</a>
+        <a href="/" class="footer-link">LA - 902722</a>
+        <a href="/" class="footer-link">United States of America</a>
+      </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e6d44cee87.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
